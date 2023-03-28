@@ -1,0 +1,271 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+*{
+    margin:0;
+    padding: 0;
+    font-size: 16px;
+    font-family: 'Roboto', sans-serif;
+}
+
+h1,h2,h3,h4,h5,h6{
+    color: rgb(17, 17, 17);
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+h1{
+    font-size: 400%;
+}
+h2{
+    font-size: 250%;
+}
+h3{
+    font-size: 200%;
+}
+h4{
+    font-size: 170%;
+}
+h5{
+    font-size: 140%;
+}
+h6{
+    font-size: 130%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+p{
+    font-size: 110%;
+    line-height: 1.5;
+    width: 90%;
+    text-align: justify;
+    margin: 5px 0px;
+}
+
+
+.list{
+    width: 80%;
+    margin-left: 5%;
+    text-align: justify;
+
+    
+    line-height: 1.5;
+}
+
+.list ol li{
+    list-style-image: url(../imgs/jogar.png);
+    font-size: 110%;
+    line-height: 1.5;
+    margin: 10px 0px;
+}
+
+/* 
+
+#header-mestre{
+    width: 100%;
+    height: 14vh;
+    background-color: rgb(255, 255, 255);
+
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-around;
+    align-items: center;
+
+    position:fixed;
+    left: 0;
+    top: 0;
+}
+
+body{
+    padding-top: 14vh;
+}
+
+header #esquerda{
+    width: 45%;
+    
+    display: flex;
+    justify-content: flex-start;
+    flex-flow: row nowrap;
+    
+}
+
+
+header div#esquerda img{
+    height: 8vh;
+    padding: 8px;
+
+
+}
+
+
+header #direita{
+    width: 45%;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-around;
+
+}
+
+header #direita nav#topicos{
+    width: 100%;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-around;
+}
+
+
+header #direita nav#topicos a{
+    color: rgb(24, 24, 24);
+    text-decoration: none;
+    font-weight: 600;
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+
+header #direita nav#topicos a:hover{
+    background-color: rgb(24, 134, 107);
+    color: aliceblue;
+}
+
+header div#banner{
+    width: 100%;
+    height: 40vh;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    background: linear-gradient(90deg, rgba(20,140,95,1) 0%, rgba(4,128,81,1) 31%, rgba(29,166,114,1) 68%, rgba(29,166,114,1) 100%);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    display: flex;
+    flex-direction: column;
+    color: rgb(233, 233, 233);
+
+    clip-path: polygon(0 0, 100% 0%, 100% 100%, 0% 100%);
+}
+
+header div#banner h1{
+    margin-left: 5vw;
+}
+
+header img{cursor: pointer;} */
+
+
+
+section{
+
+    width: 80%;
+    margin: 40px auto;
+    padding: 15px;
+}
+/* ======================================================= section title-text */
+
+section.title-text{
+    
+    display: flex;
+    flex-flow: column nowrap;
+
+
+}
+
+
+
+/* ============================================================section content-box */
+
+section.content-box div.box{
+    background-color: rgb(243, 243, 243);
+    padding: 20px ;
+    border-radius: 10px;
+    padding-top: 10px;
+    margin-top: 50px;
+    border-left: 7px solid rgba(20,140,95,0.8);
+    box-shadow: 2px 2px 5px #00000070;
+}
+
+/* ============================================================apresentacao-usuario*/
+section.apresentacao-usuario{
+    display: flex;
+    flex-flow: column nowrap;
+
+}
+section.apresentacao-usuario div.img-name {
+    width: 80%;
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: center;
+    margin-top: 40px;
+    
+}
+section.apresentacao-usuario div.img-name div.img{
+    width: 20%;
+}
+section.apresentacao-usuario div.img-name div.img img {
+    width: 150px;
+    border-radius: 90px;
+}
+section.apresentacao-usuario div.img-name div.name{
+    width: 80%;
+    font-size: 95%;
+    
+}
+
+
+/* ==========================================================div#path */
+
+div.path{
+    width: 100%;
+
+
+    background-color: #cbcbcb42;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    flex-direction: column;
+    
+
+    clip-path: polygon(0 1% ,100% 0 ,100% 99% ,0 100%) ;
+    border-top: 2px solid  #5050509f;
+    border-bottom: 2px solid  #50505086;
+    padding: 80px 0px;
+}
+
+.path2.path{
+    clip-path: polygon(0 3% ,100% 0 ,100% 97% ,0 100%) ;
+    padding: 40px 0px;
+}
+
+/* ===========================================footer */
+
+footer{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(27, 27, 27);
+    margin-top: 50px;
+    
+}
+footer div#mestre{
+    width: 90%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 20PX;
+}
+
+
+footer div#info-end ul li{
+    list-style: none;
+}
+footer h4, footer h6, footer ul, footer  p{
+    color: aliceblue;
+}
+
+footer div.img-footer{
+    display: flex;
+    flex-flow: row nowrap;
+}
+
+footer img{
+    margin: 5px;
+}
